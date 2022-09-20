@@ -13,8 +13,12 @@ Worked on a employee management system using Java, Struts2, JSP, HTML, CSS and J
 Working Project Pictures:
 
 !(https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/pic1.png?raw=true)
+
 !(https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/pic2.png?raw=true)
+
 !(https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/pic3.png?raw=true)
+
 !(https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/pic4.png?raw=true)
+
 !(https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/pic5.png?raw=true)
 
