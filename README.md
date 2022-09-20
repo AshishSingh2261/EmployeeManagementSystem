@@ -14,11 +14,11 @@ Working Project Pictures:
 
 ![picture1](https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/images/pic1.png?raw=true)
 
-!(https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/images/pic2.png?raw=true)
+![picture2](https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/images/pic2.png?raw=true)
 
-!(https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/images/pic3.png?raw=true)
+![picture3](https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/images/pic3.png?raw=true)
 
-!(https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/images/pic4.png?raw=true)
+![picture4](https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/images/pic4.png?raw=true)
 
-!(https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/images/pic5.png?raw=true)
+![picture5](https://github.com/AshishSingh2261/EmployeeManagementSystem/blob/main/images/pic5.png?raw=true)
 
