@@ -1,0 +1,6 @@
+table, th, tr, td {
+    border: 0px !important;
+    border-collapse: collapse !important;
+    border:none !important;
+    outline:none !important;
+}

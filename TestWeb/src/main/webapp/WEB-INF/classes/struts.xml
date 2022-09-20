@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD  
+ Struts Configuration 2.3//EN"   
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="abc" extends="struts-default">
+	
+
+		<action name="login">
+			<result>login.jsp</result>
+		</action>
+
+		<action name="loginprocess" class="javatpoint.Login">
+			<result name="success-admin">/admin.jsp</result>
+			<result name="success-standard">/standard.jsp</result>
+			<result name="error">/loginerror.jsp</result>
+		</action>
+
+		<action name="search_emp" class="javatpoint.SearchEmployee">
+			<result name="success">/searchsuccess.jsp</result>
+			<result name="error">/searcherror.jsp</result>
+		</action>
+		
+		<action name="view_details" class="javatpoint.ViewEmployee">
+			<result name="success">/details.jsp</result>
+			<result name="error">/searcherror.jsp</result>
+		</action>
+		
+		<action name="insert_emp" class="javatpoint.InsertEmployee">
+			<result name="success">/insertsuccess.jsp</result>
+			<result name="error">/inserterror.jsp</result>
+		</action>
+		
+		
+		<action name="insert_other" class="javatpoint.InsertOther">
+			<result name="success">/insertothersuccess.jsp</result>
+			<result name="error">/insertothererror.jsp</result>
+		</action>
+		
+		<action name="remove_emp" class="javatpoint.RemoveEmployee">
+			<result name="success">/removesuccess.jsp</result>
+			<result name="error">/removeerror.jsp</result>
+		</action>
+		
+		<action name="view_all" class="javatpoint.ViewAll">
+			<result name="success">/viewall.jsp</result>
+			<result name="error">/searcherror.jsp</result>
+		</action>
+		
+		<action name="get_child" class="javatpoint.Children">
+			<result name="success">/viewall.jsp</result>
+			<result name="error">/searcherror.jsp</result>
+		</action>
+		
+		
+		
+		
+		<action name="dept_tree" class="javatpoint.DepartmentTree">
+			<result name="success">/departmenttree.jsp</result>
+			<result name="error">/searcherror.jsp</result>
+		</action>
+		
+		<action name="check" class="javatpoint.AutoCompleterAction" method="display">
+			<result name="none">insert.jsp</result>
+  		</action>
+		
+	  	<action name="check" class="javatpoint.AutoCompleterAction" >
+		<result name="success">insert.jsp</result>
+	  	</action>
+	  	
+	  	<action name="check_search" class="javatpoint.AutoCompleterAction" method="display">
+			<result name="none">search.jsp</result>
+  		</action>
+		
+	  	<action name="check_search" class="javatpoint.AutoCompleterAction" >
+		<result name="success">search.jsp</result>
+	  	</action>
+	  	
+		<action name="logout" class="javatpoint.Login" method="logout">
+			<result name="success">/logoutsuccess.jsp</result>
+		</action>
+
+	</package>
+	
+	<package name="default" namespace="/" extends="json-default">
+		<action name="get_child" class="javatpoint.Children">
+			<result type="json" />
+		</action>
+		</package>
+</struts>      
